@@ -1,7 +1,6 @@
 import React from 'react';
 import instagramlogo from '../../assets/instagram.png';
 import './searchBar.css';
-import logotext from '../../assets/iglogotext.png';
 import igperson from '../../assets/igpersonicon.png';
 import heart from '../../assets/heart.png';
 import compass from '../../assets/compass.png';
