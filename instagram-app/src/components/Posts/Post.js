@@ -1,5 +1,5 @@
 import React from 'react';
-import CommentSection from '../Comments/CommentSection';
+import CommentContainer from '../Comments/CommentContainer';
 import PostHeader from './PostHeader';
 
 const Post = props => {
@@ -15,7 +15,7 @@ const Post = props => {
           className="post-image"
         />
       </div>
-      <CommentSection comments={props.post.comments} />
+      <CommentContainer comments={props.post.comments} />
     </div>
   );
 };
