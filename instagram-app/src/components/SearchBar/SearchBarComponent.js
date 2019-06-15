@@ -1,10 +1,10 @@
 import React from 'react';
 import instagramlogo from '../../assets/instagram.png';
-import './searchBar.css';
 import igperson from '../../assets/igpersonicon.png';
 import heart from '../../assets/heart.png';
 import compass from '../../assets/compass.png';
-const SearchBar = () => {
+import './searchBar.css';
+const SearchBar = props => {
     return (
       <div className="searchbar">
         <div className="logocontainer">
@@ -13,7 +13,7 @@ const SearchBar = () => {
 
         </div>
         <div  className="searchinput">
-          <input type="text" placeholder="Search" />
+          <input type="text" placeholder="Search" onSubmit={props.searchPosts} />
         </div>
         <div className="iconscontainer">
         <img alt="logo" src={compass} className="compass" />

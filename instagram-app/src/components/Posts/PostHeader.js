@@ -3,11 +3,11 @@ import './post.css';
 
 const PostHeader = props => {
   return (
-    <div className="header">
-      <div className="thumbnailcontainer">
+    <div className="post-header">
+      <div className="post-thumb-wrapper">
         <img
           src={props.thumbnailUrl}
-          className="thumbnail"
+          className="post-thumb"
         />
       </div>
       <div>{props.username}</div>

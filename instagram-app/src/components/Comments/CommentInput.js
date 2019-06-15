@@ -1,4 +1,5 @@
 import React from 'react';
+import './comment.css';
 
 const CommentInput = props => {
   return (
@@ -6,6 +7,7 @@ const CommentInput = props => {
       <input
         type='text'
         value={props.comment}
+        className="commentinput"
         placeholder="Add Your Comment.."
         onChange={props.changeComment}
       />
