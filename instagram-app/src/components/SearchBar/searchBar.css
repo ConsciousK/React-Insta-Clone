@@ -1,0 +1,50 @@
+.searchbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    width:30%;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+}
+
+.logo {
+    display: flex;
+    height: 70px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+.logotext {
+    display: flex;
+    padding-left: 10px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+}
+.searchinput {
+    display: flex;
+}
+.iconscontainer {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.compass {
+    display: flex;
+    height: 50px;
+}
+.heart {
+    display:flex;
+    height: 50px;
+    padding-left: 20px;
+}
+.person {
+    display:flex;
+    height: 80px;
+}
+
